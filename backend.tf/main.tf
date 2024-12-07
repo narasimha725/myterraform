@@ -1,11 +1,11 @@
 resource "aws_instance" "dev" {
-    ami = "ami-038bba9a164eb3dc1"
+    ami = "ami-0453ec754f44f9a4a"
 
     instance_type = "t2.micro"
-    key_name = "friends"
+    key_name = "test1"
     # subnet_id = aws_subnet.dev.id
     # security_groups = [aws_security_group.allow_tls.id]
     tags = {
-      Name = "dev_ec2"
+      Name = "instance"
     }
 }
