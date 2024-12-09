@@ -1,3 +1,3 @@
-ami_id = "ami-055e3d4f0bbeb5878"
+ami_id = "ami-0453ec754f44f9a4a"
 instance_type = "t2.micro"
 keypair = "test1"
